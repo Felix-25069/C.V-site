@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e6f2ff;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            border: 1px solid #0073e6;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            width: 40%;
+            text-align: right;
+            padding-right: 10px;
+            color: #00509e;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 55%;
+            padding: 5px;
+            border: 1px solid #00509e;
+            border-radius: 4px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .buttons button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            background-color: #0073e6;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 style="color: #00509e;">Step 1 of 5</h3>
+        <h4 style="color: #003366;">Personal Information</h4>
+        <div class="form-group">
+            <label>Sur Name</label>
+            <input type="text" name="surname">
+        </div>
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" name="firstname">
+        </div>
+        <div class="form-group">
+            <label>Other Names</label>
+            <input type="text" name="othernames">
+        </div>
+        <div class="form-group">
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <div class="form-group">
+            <label>Marital Status</label>
+            <select>
+                <option>Select - Status</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date" name="dob">
+        </div>
+        <div class="form-group">
+            <label>Place of Birth</label>
+            <input type="text" name="pob">
+        </div>
+        <div class="form-group">
+            <label>Mother's Name</label>
+            <input type="text" name="mothername">
+        </div>
+        <div class="form-group">
+            <label>Father's Name</label>
+            <input type="text" name="fathername">
+        </div>
+        <div class="form-group">
+            <label>Number of Dependants</label>
+            <select>
+                <option>Select - No of Dependants</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Level of Education</label>
+            <input type="text" name="education">
+        </div>
+        
+        <h4 style="color: #003366;">Security Information</h4>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="username">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="password">
+        </div>
+        <div class="form-group">
+            <label>Re-type Password</label>
+            <input type="password" name="repassword">
+        </div>
+        <div class="form-group">
+            <label>Security Question</label>
+            <select>
+                <option>Select - Question</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Answer</label>
+            <input type="text" name="answer">
+        </div>
+        
+        <div class="buttons">
+            <button type="button">Previous</button>
+            <button type="submit">Next</button>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2011 all rights reserved</p>
+    </footer>
+</body>
+</html>

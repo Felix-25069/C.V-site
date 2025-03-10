@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #aa5b5b;
+            padding: 20px;
+        }
+
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        select,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .Back-Button {
+            font-size: 20px;
+
+            font-weight: bold;
+
+            color: black;
+
+        }
+
+        .Back-Button:hover {
+            color: #333;
+
+        }
+
+        .next-button {
+            font-size: 20px;
+
+            font-weight: bold;
+
+            color: black;
+
+        }
+
+        .next-button:hover {
+            color: #333;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="contacts" class="content">
+            <h2>Contacts</h2>
+            <p>Email: <a href="nyajiedofelix@gmail.com">Email me</a></p>
+            <p>Phone: +254796815623</p>
+            <hr>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="hobbies.html" class="next-button">Next:Hobbies</a>
+    <p>
+
+    </p>
+    <a href="referee.html" class="Back-Button">Back:referee</a>
+</body>
+
+</html>
